@@ -17,13 +17,6 @@
   border: 1px solid #a1b2b9;
   background-color: #cad5d7; }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700 !important; }
-
 article p {
   max-width: 80ch !important; }
   article p a {
@@ -3002,7 +2995,11 @@ h1,
 .buf-h5, h6,
 .buf-h6 {
   font-weight: 400;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-right: 0 ;
+  margin-left: 0 ; }
 
 h1,
 .buf-h1 {
@@ -3032,7 +3029,8 @@ h5,
 h6,
 .buf-h6 {
   font-size: 1rem;
-  line-height: 1.5rem; }
+  line-height: 1.5rem;
+  font-weight: 700; }
 
 small {
   font-size: 0.75rem;
