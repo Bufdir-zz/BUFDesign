@@ -29,6 +29,9 @@ article p {
       border-bottom-color: transparent !important; }
   article p:first-child {
     margin-bottom: 40px; }
+  article p + div h3,
+  article p + div h4 {
+    margin-top: 40px !important; }
 
 code {
   padding: 3px 6px 2px !important;
@@ -3672,6 +3675,7 @@ input:-ms-input-placeholder {
 
 /* Text color */
 /* Text color */
+/* Textarea background color */
 /* Pure white */
 /* Pure black */
 /* Yellow border focus color */
@@ -3694,6 +3698,7 @@ input:-ms-input-placeholder {
 
 /* Text color */
 /* Text color */
+/* Textarea background color */
 /* Pure white */
 /* Pure black */
 /* Yellow border focus color */
@@ -3724,6 +3729,7 @@ input:-ms-input-placeholder {
 
 /* Text color */
 /* Text color */
+/* Textarea background color */
 /* Pure white */
 /* Pure black */
 /* Yellow border focus color */
@@ -3761,6 +3767,7 @@ legend {
 
 /* Text color */
 /* Text color */
+/* Textarea background color */
 /* Pure white */
 /* Pure black */
 /* Yellow border focus color */
@@ -3782,7 +3789,8 @@ legend {
   display: block;
   font-size: 0.875rem;
   line-height: 1.25rem; }
-  .buf-label + .buf-input {
+  .buf-label + .buf-input,
+  .buf-label + .buf-textarea {
     margin-top: 0.5rem ; }
 
 .buf-label__inline {
@@ -3794,6 +3802,7 @@ legend {
 
 /* Text color */
 /* Text color */
+/* Textarea background color */
 /* Pure white */
 /* Pure black */
 /* Yellow border focus color */
@@ -3831,9 +3840,98 @@ legend {
     .buf-bufetat .buf-input:hover, .buf-bufetat .buf-input:focus {
       border-color: #d13f00;
       box-shadow: inset 0 -3px 0 0 #d13f00; }
+  .buf-input + .buf-input,
+  .buf-input + .buf-label {
+    margin-top: 2rem ; }
+
+.buf-input:disabled,
+.buf-input[disabled] {
+  box-shadow: inset 0 -1px 0 0 #666666; }
+  .buf-input:disabled:hover,
+  .buf-input[disabled]:hover {
+    cursor: not-allowed;
+    border-color: transparent; }
+
+.buf-input:-moz-read-only,
+.buf-input[read-only] {
+  color: #856404;
+  box-shadow: none;
+  background-color: #fff3cd; }
+
+.buf-input:read-only,
+.buf-input[read-only] {
+  color: #856404;
+  box-shadow: none;
+  background-color: #fff3cd; }
+  .buf-input:-moz-read-only:hover, .buf-input:-moz-read-only:focus,
+  .buf-input[read-only]:hover,
+  .buf-input[read-only]:focus {
+    border-color: transparent; }
+  .buf-input:read-only:hover, .buf-input:read-only:focus,
+  .buf-input[read-only]:hover,
+  .buf-input[read-only]:focus {
+    border-color: transparent; }
 
 /* Text color */
 /* Text color */
+/* Textarea background color */
+/* Pure white */
+/* Pure black */
+/* Yellow border focus color */
+/* Mark input as required with a red asterisk */
+/* Light not added through Open Sans */
+/* Semi Bold not added through Open Sans */
+/* Extra Bold not added through Open Sans */
+/* 4:5 scale major third */
+/* 4:5 scale major third */
+/* 4:5 scale major third */
+/* 4:5 scale major third */
+/* 4:5 scale major third */
+/* 4:5 scale major third */
+/* 4:5 scale major third */
+/* 4:5 scale major third */
+/* 4:5 scale major third */
+/* 4:5 scale major third */
+.buf-textarea {
+  width: 100%;
+  resize: none;
+  border: none;
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+  box-shadow: inset 0 -1px 0 0 #00796b;
+  background-color: #f5f5f5;
+  padding-top: 0.75rem ;
+  padding-bottom: 0.75rem ;
+  padding-right: 0.75rem ;
+  padding-left: 0.75rem ;
+  transition: all 300ms ease-in-out; }
+  .buf-textarea:hover, .buf-textarea:focus {
+    border-color: #00796b;
+    box-shadow: inset 0 -3px 0 0 #00796b; }
+  .buf-bufetat .buf-textarea {
+    box-shadow: inset 0 -1px 0 0 #d13f00; }
+    .buf-bufetat .buf-textarea:hover, .buf-bufetat .buf-textarea:focus {
+      border-color: #d13f00;
+      box-shadow: inset 0 -3px 0 0 #d13f00; }
+  .buf-textarea + .buf-textarea,
+  .buf-textarea + .buf-label {
+    margin-top: 2rem ; }
+
+.buf-textarea--resize-vertical {
+  resize: vertical; }
+
+.buf-textarea:disabled,
+.buf-textarea[disabled] {
+  box-shadow: none; }
+  .buf-textarea:disabled:hover,
+  .buf-textarea[disabled]:hover {
+    cursor: not-allowed;
+    border-color: transparent; }
+
+/* Text color */
+/* Text color */
+/* Textarea background color */
 /* Pure white */
 /* Pure black */
 /* Yellow border focus color */
@@ -4058,6 +4156,7 @@ legend {
 
 /* Text color */
 /* Text color */
+/* Textarea background color */
 /* Pure white */
 /* Pure black */
 /* Yellow border focus color */
@@ -4101,6 +4200,7 @@ legend {
 
 /* Text color */
 /* Text color */
+/* Textarea background color */
 /* Pure white */
 /* Pure black */
 /* Yellow border focus color */
@@ -4141,6 +4241,7 @@ a,
 
 /* Text color */
 /* Text color */
+/* Textarea background color */
 /* Pure white */
 /* Pure black */
 /* Yellow border focus color */
@@ -4301,6 +4402,7 @@ a,
 
 /* Text color */
 /* Text color */
+/* Textarea background color */
 /* Pure white */
 /* Pure black */
 /* Yellow border focus color */
