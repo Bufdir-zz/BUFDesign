@@ -3657,6 +3657,25 @@ input:-ms-input-placeholder {
 .buf-form {
   background-color: #ffffff; }
 
+.buf-label {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.5rem; }
+  .buf-label + .buf-label,
+  .buf-label + .buf-textarea,
+  .buf-label + .buf-input,
+  .buf-label + .buf-select-style,
+  .buf-label + .buf-radio,
+  .buf-label + .buf-checkbox {
+    margin-top: 0.5rem ; }
+
+.buf-label__inline {
+  display: inline; }
+
+.buf-label__required {
+  color: #d13f00;
+  padding-left: 0.25rem ; }
+
 
 .buf-fieldset {
   border: none;
@@ -3724,25 +3743,6 @@ input:-ms-input-placeholder {
   .buf-input[read-only]:hover,
   .buf-input[read-only]:focus {
     border-color: transparent; }
-
-.buf-label {
-  display: block;
-  font-size: 0.875rem;
-  line-height: 1.5rem; }
-  .buf-label + .buf-label,
-  .buf-label + .buf-textarea,
-  .buf-label + .buf-input,
-  .buf-label + .buf-select-style,
-  .buf-label + .buf-radio,
-  .buf-label + .buf-checkbox {
-    margin-top: 0.5rem ; }
-
-.buf-label__inline {
-  display: inline; }
-
-.buf-label__required {
-  color: #d13f00;
-  padding-left: 0.25rem ; }
 
 legend {
   max-width: 100%;
