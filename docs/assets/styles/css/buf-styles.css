@@ -3691,7 +3691,6 @@ input:-ms-input-placeholder {
     top: 3px;
     vertical-align: middle;
     flex: 0 0 auto;
-    border-radius: 2px;
     background-color: #ffffff;
     -webkit-transform: translateY(0.125rem);
             transform: translateY(0.125rem);
@@ -3729,7 +3728,8 @@ input:-ms-input-placeholder {
         border-color: #952b0a; }
   .buf-checkbox__input:focus + .buf-checkbox__label svg {
     outline: 0;
-    box-shadow: 0 0 0 3px #4db6ac; }
+    box-shadow: 0 0 0 3px #4db6ac;
+    transition: all 300ms ease-in-out; }
     .buf-bufetat .buf-checkbox__input:focus + .buf-checkbox__label svg {
       box-shadow: 0 0 0 3px #ff8043; }
   .buf-checkbox__input:checked + .buf-checkbox__label svg {
