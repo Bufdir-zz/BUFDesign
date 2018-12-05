@@ -12,38 +12,35 @@ body {
 /* Typography
 */
 h1, h2, h3, h4, h5, h6 {
-  hyphens: auto !important;
   margin: 0 !important;
+  hyphens: auto !important;
+  line-height: 1.5;
+  font-weight: normal !important;
 }
 
 h1 {
-  font-size: 3rem !important;
-  line-height: 4.625rem !important;
+  font-size: 39px !important;
 }
 
 h2 {
-  font-size: 2.4375rem !important;
-  line-height: 3.875rem !important;
+  font-size: 28px !important;
 }
 
 h3 {
-  font-size: 1.9375rem !important;
-  line-height: 3.1875rem !important;
+  font-size: 24px !important;
 }
 
 h4 {
-  font-size: 1.5625rem !important;
-  line-height: 2.5625rem !important;
+  font-size: 18px !important;
 }
 
 h5 {
-  font-size: 1.25rem !important;
-  line-height: 2.125rem !important;
+  font-size: 16px !important;
 }
 
 h6 {
-  font-size: 1rem !important;
-  line-height: 1.6875rem !important;
+  font-size: 16px !important;
+  font-weight: bold;
 }
 
 /* Links
@@ -65,8 +62,8 @@ a:focus {
 /* Ingress
 */
 .buf-lead-paragraph {
-  font-size: 1.250rem !important;
-  padding-bottom: 20px;
+  font-size: 18px !important;
+  padding-bottom: 20px !important;
 }
 
 /* Block
@@ -77,6 +74,30 @@ a:focus {
 
 .buf-block h2 {
   margin-bottom: 24px;
+}
+
+.buf-block h2 a {
+  position:  relative !important;
+  border-bottom: none !important;
+}
+
+.buf-block h2 a::after {
+  margin-left: 10px;
+  position: relative;
+  bottom: 2px;
+  content: '\f054';
+  color: #00796b;
+  font-family: 'Font Awesome 5 Free';
+  font-size: 10px;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+}
+
+.buf-block h2 a:hover::after {
+  color: #005e53;
 }
 
 .buf-block ul {
