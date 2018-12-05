@@ -62,13 +62,15 @@ a:focus {
 /* Lines
 */
 hr {
-  border-bottom: 1px solid #e7eced !;
+  border-bottom: 1px solid #e7eced !important;
 }
 
 /* Heading
 */
 .buf-section-title {
+  padding-top: 24px !important;
   margin-bottom: 24px !important;
+  border-top: 1px solid #e7eced !important;
 }
 
 /* Ingress
