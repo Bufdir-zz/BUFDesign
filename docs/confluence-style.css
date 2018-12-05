@@ -6,11 +6,31 @@
 
 html, body {
   font-size: 16px !important;
-  background-color: green !important;
 }
 
-/* Link list
+/* Links
 */
-.buf-link-list {
-  background-color: red !important;
+a, a:visited {
+  color: #00796B !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid #00796B !important;
+}
+
+a:hover, a:focus {
+  color: #005E53 !important;
+  border-bottom: 1px solid #005E53;
+}
+
+/* Block
+*/
+.buf-block {
+}
+
+.buf-block ul {
+}
+
+.buf-block ul li {
+}
+
+.buf-block .buf-block__text {
 }
