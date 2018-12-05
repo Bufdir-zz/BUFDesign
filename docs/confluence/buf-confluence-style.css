@@ -73,7 +73,7 @@ hr {
   border-top: 1px solid #e7eced !important;
 }
 
-.buf-section-title__seconday-title {
+.buf-section-title__secondary-title {
   font-size: 20px !important;
 }
 
@@ -162,7 +162,7 @@ hr {
   -webkit-font-smoothing: antialiased;
 }
 
-.buf-block ul li a {
+/* .buf-block ul li a {
   color: #292929 !important;
   border-bottom: 1px solid transparent !important;
 }
@@ -171,7 +171,7 @@ hr {
 .buf-block ul li a:focus {
   color: #005e53 !important;
   border-bottom: 1px solid #005e53 !important;
-}
+} */
 
 .buf-block .buf-block__text {
   margin-bottom: 24px;
@@ -196,4 +196,14 @@ hr {
 .buf-block-link a:focus {
   color: #005e53 !important;
   border-bottom: 3px solid #005e53 !important;
+}
+
+/* Accordion
+*/
+.buf-accordion {
+
+}
+
+.buf-accordion__title {
+  display: none;
 }
