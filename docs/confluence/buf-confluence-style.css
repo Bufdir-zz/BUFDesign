@@ -73,12 +73,32 @@ hr {
   border-top: 1px solid #e7eced !important;
 }
 
+.buf-section-title__seconday-title {
+  font-size: 20px !important;
+}
+
 /* Ingress
 */
 .buf-lead-paragraph {
   max-width: 75ch !important;
   font-size: 18px !important;
   padding-bottom: 20px !important;
+}
+
+/* Table of content
+*/
+.buf-toc {
+  
+}
+
+.buf-toc ul {
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style-type: none !important;
+}
+
+.buf-toc ul li {
+  padding: 4px 0 !important;
 }
 
 /* Block
