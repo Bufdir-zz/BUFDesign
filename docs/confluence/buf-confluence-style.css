@@ -59,6 +59,18 @@ a:focus {
   border-bottom: 1px solid transparent !important;
 }
 
+/* Lines
+*/
+hr {
+  border-bottom: 1px solid #e7eced !;
+}
+
+/* Heading
+*/
+.buf-section-title {
+  margin-bottom: 24px !important;
+}
+
 /* Ingress
 */
 .buf-lead-paragraph {
@@ -97,7 +109,8 @@ a:focus {
   -webkit-font-smoothing: antialiased;
 }
 
-.buf-block h2 a:hover::after {
+.buf-block h2 a:hover::after,
+.buf-block h2 a:focus::after {
   color: #005e53;
 }
 
@@ -130,7 +143,8 @@ a:focus {
   border-bottom: 1px solid transparent !important;
 }
 
-.buf-block ul li a:hover {
+.buf-block ul li a:hover,
+.buf-block ul li a:focus {
   border-bottom: 1px solid #005e53 !important;
 }
 
@@ -141,7 +155,7 @@ a:focus {
 /* Link block
 */
 .buf-block-link {
-  margin-top: 24px !important;
+  margin-bottom: 24px !important;
 }
 
 .buf-block-link a {
@@ -149,6 +163,12 @@ a:focus {
   color: #00796B !important;
   display: flex;
   justify-content: center;
-  border-bottom: none !important;
+  border-bottom: 3px solid transparent !important;
   background-color: #DBEAE7;
+}
+
+.buf-block-link a:hover, 
+.buf-block-link a:focus {
+  color: #005e53 !important;
+  border-bottom: 3px solid #005e53 !important;
 }
