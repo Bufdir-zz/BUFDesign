@@ -5,11 +5,12 @@
 */
 
 html, body {
-  font-size: 16px;
+  font-size: 16px !important;
+  background-color: green !important;
 }
 
 /* Link list
 */
 .buf-link-list {
-  background-color: red;
+  background-color: red !important;
 }
