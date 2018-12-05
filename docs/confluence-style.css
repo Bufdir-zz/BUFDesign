@@ -14,23 +14,41 @@ a, a:visited {
   color: #00796B !important;
   text-decoration: none !important;
   border-bottom: 1px solid #00796B !important;
+  
+  transition: all 300ms ease-in-out;
 }
 
 a:hover, a:focus {
   color: #005E53 !important;
-  border-bottom: 1px solid #005E53;
+  border-bottom: 1px solid transparent;
 }
 
 /* Block
 */
 .buf-block {
+  margin-bottom: 24px;
+}
+
+.buf-block h2 {
+  margin-bottom: 24px;
 }
 
 .buf-block ul {
+  padding: 0;
+  margin: 0;
 }
 
 .buf-block ul li {
+  padding: 0 4px;
+}
+
+.buf-block ul li::before {
+  display: inline-block;
+  content: '\f054';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900; 
 }
 
 .buf-block .buf-block__text {
+  margin-bottom: 24px;
 }
