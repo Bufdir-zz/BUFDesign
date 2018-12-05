@@ -1,0 +1,15 @@
+/*
+*
+*  Description: Custom Confluence styling
+*  ------------------------------------------------------------------------------------
+*/
+
+html, body {
+  font-size: 16px;
+}
+
+/* Link list
+*/
+.buf-link-list {
+  background-color: red;
+}
