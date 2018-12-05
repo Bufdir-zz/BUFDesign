@@ -9,6 +9,43 @@ body {
   font-size: 16px !important;
 }
 
+/* Typography
+*/
+h1, h2, h3, h4, h5, h6 {
+  hyphens: auto !important;
+  margin: 0 !important;
+}
+
+h1 {
+  font-size: 3rem !important;
+  line-height: 4.625rem !important;
+}
+
+h2 {
+  font-size: 2.4375rem !important;
+  line-height: 3.875rem !important;
+}
+
+h3 {
+  font-size: 1.9375rem !important;
+  line-height: 3.1875rem !important;
+}
+
+h4 {
+  font-size: 1.5625rem !important;
+  line-height: 2.5625rem !important;
+}
+
+h5 {
+  font-size: 1.25rem !important;
+  line-height: 2.125rem !important;
+}
+
+h6 {
+  font-size: 1rem !important;
+  line-height: 1.6875rem !important;
+}
+
 /* Links
 */
 a,
@@ -23,6 +60,13 @@ a:hover,
 a:focus {
   color: #005e53 !important;
   border-bottom: 1px solid transparent !important;
+}
+
+/* Ingress
+*/
+.buf-lead-paragraph {
+  font-size: 1.250rem !important;
+  padding-bottom: 20px;
 }
 
 /* Block
@@ -46,10 +90,12 @@ a:focus {
 
 .buf-block ul li::before {
   margin-right: 10px;
+  position: relative;
+  bottom: 2px;
   content: '\f054';
   color: #00796b;
   font-family: 'Font Awesome 5 Free';
-  font-size: 8px;
+  font-size: 10px;
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
