@@ -45,15 +45,25 @@ a:focus {
 }
 
 .buf-block ul li::before {
+  margin-right: 10px;
   content: '\f054';
   color: #00796b;
   font-family: 'Font Awesome 5 Free';
-  font-size: 10px;
+  font-size: 8px;
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
   font-weight: 900;
   -webkit-font-smoothing: antialiased;
+}
+
+.buf-block ul li a {
+  color: #292929 !important;
+  border-bottom: 1px solid transparent !important;
+}
+
+.buf-block ul li a:hover {
+  border-bottom: 1px solid #005e53 !important;
 }
 
 .buf-block .buf-block__text {
