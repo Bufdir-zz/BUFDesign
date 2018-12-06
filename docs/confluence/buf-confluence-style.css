@@ -249,3 +249,7 @@ hr {
   margin: 0 !important;
   background-color: #f2f7f6;
 }
+
+.buf-accordion .expand-content.expand-hidden {
+  padding-bottom: 0 !important;
+}
