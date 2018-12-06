@@ -205,7 +205,7 @@ hr {
 }
 
 .buf-accordion .expand-control {
-  padding: 12px 0 !important;
+  padding: 12px !important;
   margin-bottom: 0 !important;
   border-bottom: 1px solid #00796B !important;
   background-color: #f2f7f6 !important;
@@ -228,11 +228,20 @@ hr {
 }
 
 .buf-accordion .expand-control-icon {
+  float: right !important;
+  background-image: none;
+}
+
+.buf-accordion .expand-control-icon.icon {
   content: '\f054';
   color: #00796b;
   font-family: 'Font Awesome 5 Free';
-  float: right !important;
-  background-image: none;
+  font-size: 10px;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
 }
 
 .buf-accordion .expand-control-icon.expanded {
