@@ -115,7 +115,10 @@ hr {
 }
 
 .buf-block h2 {
-  margin-bottom: 16px !important;
+  min-height: 74px !important;
+  line-height: 1.2 !important;
+  display: flex !important;
+  align-items: flex-start !important;
 }
 
 .buf-block h2 a {
