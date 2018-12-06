@@ -204,6 +204,29 @@ hr {
 
 }
 
+.buf-accordion .expand-control {
+  padding: 12px 0 !important;
+  margin-bottom: 0 !important;
+  border-bottom: 1px solid #00796B !important;
+  background-color: #f2f7f6 !important;
+}
+
+.buf-accordion .expand-control:hover,
+.buf-accordion .expand-control:focus {
+  border-bottom-color: #005e53 !important;
+  background-color: #dbeae7 !important;
+}
+
+.buf-accordion .expand-control-text {
+  color: #00796b !important;
+}
+
+.buf-accordion .expand-control-text:hover,
+.buf-accordion .expand-control-text:focus {
+  color: #005e53 !important;
+  text-decoration: none !important;
+}
+
 .buf-accordion__title h2 {
   font-size: 1px !important;
   line-height: 0 !important;
