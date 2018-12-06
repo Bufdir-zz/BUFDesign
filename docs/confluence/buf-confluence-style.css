@@ -227,6 +227,18 @@ hr {
   text-decoration: none !important;
 }
 
+.buf-accordion .expand-control-icon {
+  content: '\f054';
+  color: #00796b;
+  font-family: 'Font Awesome 5 Free';
+  float: right !important;
+  background-image: none;
+}
+
+.buf-accordion .expand-control-icon.expanded {
+  content: '\f078';
+}
+
 .buf-accordion__title h2 {
   font-size: 1px !important;
   line-height: 0 !important;
