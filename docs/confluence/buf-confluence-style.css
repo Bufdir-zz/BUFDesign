@@ -169,17 +169,6 @@ hr {
   -webkit-font-smoothing: antialiased;
 }
 
-/* .buf-block ul li a {
-  color: #292929 !important;
-  border-bottom: 1px solid transparent !important;
-}
-
-.buf-block ul li a:hover,
-.buf-block ul li a:focus {
-  color: #005e53 !important;
-  border-bottom: 1px solid #005e53 !important;
-} */
-
 .buf-block .buf-block__text {
   margin-bottom: 24px;
 }
@@ -210,28 +199,32 @@ hr {
 .buf-accordion {
 }
 
-.buf-accordion .expand-control {
-  padding: 12px !important;
-  border-bottom: 1px solid #00796b !important;
-  background-color: #f2f7f6 !important;
+.buf-accordion .buf-accordion__title h2 {
+  margin-bottom: 20px !important;
+  font-size: 1px !important;
+  line-height: 0 !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
 }
 
-.buf-accordion .expand-control + .buf-accordion .expand-control {
+.buf-accordion .expand-control {
+  padding: 12px !important;
   margin-bottom: 0 !important;
+  border-bottom: 1px solid #00796b !important;
+  background-color: #dbeae7 !important;
 }
 
 .buf-accordion .expand-control:hover,
 .buf-accordion .expand-control:focus {
   border-bottom-color: #005e53 !important;
-  background-color: #dbeae7 !important;
 }
 
 .buf-accordion .expand-control-text {
   color: #00796b !important;
 }
 
-.buf-accordion .expand-control-text:hover,
-.buf-accordion .expand-control-text:focus {
+.buf-accordion:hover .expand-control-text,
+.buf-accordion:focus .expand-control-text {
   color: #005e53 !important;
   text-decoration: none !important;
 }
@@ -251,9 +244,8 @@ hr {
   margin-top: 2px !important;
 }
 
-.buf-accordion__title h2 {
-  font-size: 1px !important;
-  line-height: 0 !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
+.buf-accordion .expand-content {
+  padding: 0 24px 24px 24px !important;
+  margin: 0 !important;
+  background-color: #f2f7f6;
 }
