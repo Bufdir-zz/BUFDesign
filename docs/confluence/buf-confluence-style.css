@@ -201,7 +201,8 @@ hr {
 }
 
 .buf-accordion p {
-  margin-top: 24px !important;
+  margin-top: 12px !important;
+  margin-bottom: 24px !important;
 }
 
 .buf-accordion .buf-accordion__title h2 {
@@ -226,6 +227,7 @@ hr {
 
 .buf-accordion .expand-control-text {
   color: #00796b !important;
+  font-size: 28px !important;
 }
 
 .buf-accordion:hover .expand-control-text,
@@ -245,7 +247,7 @@ hr {
 }
 
 .buf-accordion .expand-control-icon.icon {
-  height: 20px !important;
+  height: 38px !important;
   margin-top: 2px !important;
 }
 
