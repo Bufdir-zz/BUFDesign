@@ -197,6 +197,11 @@ hr {
 /* Accordion
 */
 .buf-accordion {
+  margin-bottom: 16px;
+}
+
+.buf-accordion p {
+  margin-top: 24px !important;
 }
 
 .buf-accordion .buf-accordion__title h2 {
