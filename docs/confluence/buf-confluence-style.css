@@ -96,6 +96,9 @@ hr {
 /* Table of content
 */
 .buf-toc {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7eced;
 }
 
 .buf-toc ul {
@@ -106,6 +109,22 @@ hr {
 
 .buf-toc ul li {
   padding: 4px 0 !important;
+  position: relative;
+}
+
+.buf-toc ul li::before {
+  margin-right: 10px;
+  position: relative;
+  bottom: 2px;
+  content: '\f054';
+  color: #00796b;
+  font-family: 'Font Awesome 5 Free';
+  font-size: 10px;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* Block
@@ -230,7 +249,7 @@ hr {
 
 .buf-accordion .expand-control-text {
   color: #00796b !important;
-  font-size: 28px !important;
+  font-size: 24px !important;
 }
 
 .buf-accordion:hover .expand-control-text,
@@ -251,7 +270,6 @@ hr {
 
 .buf-accordion .expand-control-icon.icon {
   height: 38px !important;
-  margin-top: 2px !important;
 }
 
 .buf-accordion .expand-content {
