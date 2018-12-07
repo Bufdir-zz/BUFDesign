@@ -222,9 +222,12 @@ hr {
   margin-bottom: 16px;
 }
 
-.buf-accordion p {
-  margin-top: 12px !important;
-  margin-bottom: 24px !important;
+.buf-accordion h3 {
+  margin-top: 24px !important;
+}
+
+.buf-accordion h4 {
+  margin-top: 16px !important;
 }
 
 .buf-accordion .buf-accordion__title h2 {
@@ -280,4 +283,22 @@ hr {
 
 .buf-accordion .expand-content.expand-hidden {
   padding-bottom: 0 !important;
+}
+
+/* Confluence wiki overwrite, tables
+*/
+confluenceTable {
+  margin: 20px 0 20px 0 !important;
+}
+
+table.confluenceTable th.confluenceTh {
+  color: #292929 !important
+}
+
+.wiki-content table.tablesorter > thead > tr > th {
+  background: #e7eced center right no-repeat !important;
+}
+
+.confluenceTh, .confluenceTd {
+  border: 1px solid #becace !important
 }
