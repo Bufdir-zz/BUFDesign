@@ -287,12 +287,13 @@ hr {
 
 /* Confluence wiki overwrite, tables
 */
-confluenceTable {
+.confluenceTable {
   margin: 20px 0 20px 0 !important;
 }
 
-table.confluenceTable th.confluenceTh {
-  color: #292929 !important
+table.confluenceTable th.confluenceTh,
+.wiki-content .tablesorter-header-inner {
+  color: #292929 !important;
 }
 
 .wiki-content table.tablesorter > thead > tr > th {
