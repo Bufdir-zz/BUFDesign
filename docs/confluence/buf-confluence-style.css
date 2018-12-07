@@ -115,7 +115,7 @@ hr {
 .buf-toc ul li::before {
   margin-right: 10px;
   position: relative;
-  bottom: 2px;
+  bottom: 1px;
   content: '\f054';
   color: #00796b;
   font-family: 'Font Awesome 5 Free';
@@ -179,7 +179,7 @@ hr {
 .buf-block ul li::before {
   margin-right: 10px;
   position: relative;
-  bottom: 2px;
+  bottom: 1px;
   content: '\f054';
   color: #00796b;
   font-family: 'Font Awesome 5 Free';
@@ -269,7 +269,7 @@ hr {
 }
 
 .buf-accordion .expand-control-icon.icon {
-  height: 38px !important;
+  height: 30px !important;
 }
 
 .buf-accordion .expand-content {
